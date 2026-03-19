@@ -27,7 +27,7 @@
 {
 	font-size: 130px;
 }
-.bannet-text p
+.banner-text p
 {
 	font-size: 20px;
 	font-style: italic;
@@ -78,6 +78,10 @@
 	background: #009688;
 	z-index: 2;
 	transition: 0.5s;
+}
+#sidenav.open
+{
+	right: 0;
 }
 nav ul li
 {
@@ -266,7 +270,7 @@ nav ul li a
 	cursor: pointer;
 	background:linear-gradient(rgba(0,0,0,0.5),#009688);
 	opacity: 0;
-	transition: 1s;
+	transition: 0.4s;
 }
 .single-service:hover .overlay
 {
@@ -280,7 +284,7 @@ nav ul li a
 	left:50%;
 	opacity: 0;
 	transform:translateX(-50%);
-	transition: 1s;
+	transition: 0.4s;
 }
 hr
 {
